@@ -1,0 +1,12 @@
+<!--pages/challenge/association/association.wxml-->
+<text>联想法大挑战({{difficulty}})</text>
+<view>
+    <text>一个计时器</text>
+<view>
+
+</view>
+    <text>{{itemList[currentIndex]}}</text>
+</view>
+
+<button hidden="{{isHideNextBtn}}" bindtap="next">下一个</button>
+<button hidden="{{isHideTestBtn}}" bindtap="test">开始挑战</button>

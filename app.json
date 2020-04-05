@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/study/study",
+        "pages/my/my",
+        "pages/challenge/challenge",
+        "pages/challenge/association/association",
+        "pages/ranking/ranking",
+        "pages/recommend/recommend"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "记忆力风暴",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#11cd6e",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/ranking/ranking",
+                "text": "排行"
+            },
+            {
+                "pagePath": "pages/recommend/recommend",
+                "text": "推荐"
+
+            } ,
+            {
+                "pagePath": "pages/study/study",
+                "text": "学习"
+            },
+            {
+                "pagePath": "pages/challenge/challenge",
+                "text": "挑战"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "我的"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

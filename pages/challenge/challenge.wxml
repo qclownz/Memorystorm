@@ -1,0 +1,3 @@
+<!--pages/challenge/challenge.wxml-->
+<button  bindtap="choiceDifficulty0">联想法</button>
+<button  bindtap="choiceDifficulty1">图像法</button>
